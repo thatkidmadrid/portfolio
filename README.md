@@ -2,8 +2,9 @@
 
 ####[thatkidmadrid.ca](https://thatkidmadrid.ca)
 
+<div style="width: 10em">
 ![Profile Picture](http://thatkidmadrid.ca/img/profile.jpg)
-
+</div>
 I am passionate about simple, *creative*, solutions for web and print media.
 
 ##Here's the best way to reach me:
