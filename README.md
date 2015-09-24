@@ -3,6 +3,7 @@
 ####[☛ thatkidmadrid.ca](https://thatkidmadrid.ca)
 
 ![Profile Picture](http://thatkidmadrid.ca/img/profile-250.jpg)
+
 I am passionate about simple, *creative*, solutions for web and print media.
 
 ##Here's the best way to reach me
