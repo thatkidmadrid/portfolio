@@ -18,3 +18,50 @@ html {
   box-sizing: inherit;
 }
 
+body {
+	margin: 0;
+	padding: 1em;
+	background-color: #eee;
+}
+
+header, main, footer {
+ background-color: #ddd;
+ margin: 0;
+ padding: 1em;
+}
+header h1, header h2 {
+	margin: 0;
+}
+
+main {
+
+}
+
+footer {
+
+}
+
+nav ul {
+	margin: 0;
+}
+
+.layer-strip {
+	width: 100em;
+	margin: 0;
+	height: 15em;
+	padding: 0;
+
+}
+
+.section-gallery {
+	width: 100%;
+	overflow-y: hidden;
+	overflow-x: scroll;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	padding: 0;
+}
+
