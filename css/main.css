@@ -262,3 +262,7 @@ footer li {
 .email:hover {
 	text-decoration: underline;
 }
+
+.item img {
+	width: 100%;
+}
