@@ -20,7 +20,7 @@ html {
 
 body {
 	margin: 0;
-	padding: 1em;
+	padding: 0;
 	background-color: #eee;
 }
 
@@ -39,6 +39,7 @@ background-color: #555;
 main {
 background-color: #eee;
  margin: 0;
+ padding: 0;
 }
 
 footer {
@@ -64,6 +65,9 @@ nav li {
 	height: 15em;
 	padding: 0;
 }
+.layer-strip img {
+	width: 200px;
+}
 
 nav a {
 	text-decoration:  none;
@@ -78,6 +82,8 @@ nav a {
 	overflow-x: scroll;
 	position: relative;
 }
+
+
 .section-heading{
 -webkit-box-shadow: 0px 10px 37px -6px rgba(0,0,0,0.2);
 -moz-box-shadow: 0px 10px 37px -6px rgba(0,0,0,0.2);
