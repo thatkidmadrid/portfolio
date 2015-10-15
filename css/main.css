@@ -237,7 +237,13 @@ footer li {
 }
 
 .contact-info {
-	margin: 2em;
+ padding: 4em 2em;
+	width: 100%;
+}
+
+.contact-info h3 {
+	text-align: center;
+	margin-top: 2em;
 }
 
 .contact-info-list {
