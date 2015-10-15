@@ -164,6 +164,8 @@ nav a:hover {
   width: 100%;
 	scroll-snap-type: mandatory;
   scroll-snap-points-x: repeat(50%);
+  -webkit-scroll-snap-type: mandatory;
+  -webkit-scroll-snap-points-x: repeat(50%);
 }
 
 .section {
