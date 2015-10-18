@@ -160,6 +160,15 @@ main {
 	overflow: hidden;
 	height: 90%;
 }
+
+.lb-close {
+	top: 2em;
+	left: 2em;
+	text-decoration: none;
+	background-color: #a00;
+	color: #fff;
+	padding: 0.5em;
+}
 /*======================================*/
 /*===========Navigation=================*/
 /*======================================*/
