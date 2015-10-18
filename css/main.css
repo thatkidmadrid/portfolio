@@ -101,7 +101,7 @@ main {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
+	height: 100vh;
 	z-index: -1;
 	background-color: rgba(0,0,0,0.5);
 	opacity: 0;
@@ -126,14 +126,21 @@ main {
 	margin: 1em;
 }
 
-.lb-desc {
-	background-color: #444;
-	overflow: hidden;
-	overflow-y: scroll;
+.lb-img img {
+	display: block;
+	height: 100%;
+	margin: 0 auto;
 }
 
-.lb-thumbs {
+.lb-desc {
+	background-color: #ccc;
+	overflow: hidden;
+	overflow-y: scroll;
+	padding: 1em;
+}
 
+.lb-thumbs img{
+	width: 100%;
 }
 /*======================================*/
 /*===========Navigation=================*/
