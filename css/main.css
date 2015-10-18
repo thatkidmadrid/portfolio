@@ -61,12 +61,12 @@ body {
 }
 
 header{
-	background-color: #000;
+	background-color: #111;
 	height: 5em;
 }
 
 footer {
-	background-color: #000;
+	background-color: #111;
 	padding: 1em 4em;
 	color: #ddd;
 }
@@ -373,9 +373,13 @@ main {
 .contact-info {
 	padding: 4em 2em;
 	width: 100%;
-	height: 50vh;
-	min-height: 30em;
-	background-color: #bbb
+	background-color: #000;
+}
+
+.contact-overlay {
+	background-color: rgba(255,255,255,0.5);
+	padding: 2em 1em;
+	border-radius: 0.5em;
 }
 
 .contact-info h3 {
@@ -393,20 +397,36 @@ main {
 
 .contact-info-list li {
 	display: inline-block;
+	vertical-align: top;
+}
+
+.center {
+	width: 100%;
+	position: relative;
 }
 
 .contact-info-list img {
-	width: 4em;
+	width: 3em;
 }
 
-.contact-info-list a:hover {
-	background-color: #ddd;
-	padding-bottom: 0.25em;
+@media only screen and () {
+	.contact-info-list img {
+		width: 4em;
+	}
 }
 
 .contact-info-list a {
-	height: auto;
+	display: block;
+	padding-bottom: 0.25em;
+}
+
+.contact-info-list a:hover {
+	background-color: #fff;
+}
+
+.contact-info-list a {
 	transition: all 250ms;
+
 }
 
 .email {
@@ -444,7 +464,7 @@ text-align: center;
 	max-width: 20em;
 	top: 2em;
 	z-index: 20;
-	background-color: #555;
+	background-color: #111;
 	padding: 0.5em;
 	padding-left: 2.5em;
 	border-radius: 0 0 0.5em 0;
@@ -517,6 +537,10 @@ text-align: center;
 	width: calc(4 * 15.25em);
 }
 
+.section-4 {
+	margin: 0;
+}
+
 ::-webkit-scrollbar {
     width: 0.5em;
     height: 0.5em;
@@ -542,7 +566,7 @@ text-align: center;
 
 
 .portfolio {
-	background-color: #555;
+	background-color: #111;
 }
 
 
