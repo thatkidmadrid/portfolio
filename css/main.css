@@ -107,16 +107,25 @@ main {
 	opacity: 0;
 }
 
+.lightbox a {
+	position: absolute;
+}
+
 #lightbox:target {
 	z-index: 50;
 	opacity: 1;
 	transition: all 500ms;
 }
 
+#lightbox:target ~ .site-wrap {
+	height: 100vh;
+	overflow: hidden;
+}
+
 .lb-content {
-	width: calc(100% - 4em);
-	height: calc(100% - 4em);
-	margin: 4em 2em 2em;
+	width: calc(100% - 2em);
+	height: calc(100% - 2em);
+	margin: 1em;
 	background-color: #000;
 }
 
@@ -124,6 +133,7 @@ main {
 	background-color: #555;
 	height: 50%;
 	margin: 1em;
+
 }
 
 .lb-img img {
@@ -139,8 +149,16 @@ main {
 	padding: 1em;
 }
 
-.lb-thumbs img{
-	width: 100%;
+.thumbnail img{
+	display: block;
+	width: 75%;
+	margin: 0 auto;
+}
+
+.thumbnail {
+	display: block;
+	overflow: hidden;
+	height: 90%;
 }
 /*======================================*/
 /*===========Navigation=================*/
