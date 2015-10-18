@@ -1,18 +1,15 @@
 @charset "utf-8";
 @-moz-viewport { width: device-width; scale: 1; }
 @-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 @import "compass/css3";
 
 html {
   box-sizing: border-box;
-
-	-moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
+ -ms-text-size-adjust: 100%;
+ -webkit-text-size-adjust: 100%;
+ text-size-adjust: 100%;
   height: 100%;
 	-webkit-overflow-scrolling: touch;
 	background-color: #000;
@@ -225,9 +222,7 @@ main {
     z-index: 1;
     padding: 0em;
     transition: left 250ms;
-    -webkit-box-shadow: -10px 0px 10px -5px rgba(0,0,0,0.5);
-		-moz-box-shadow: -10px 0px 10px -5px rgba(0,0,0,0.5);
-    box-shadow: -10px 0px 10px -5px rgba(0,0,0,0.5);
+  box-shadow: -10px 0px 10px -5px rgba(0,0,0,0.5);
 }
 
 #navigation:target ~ .site-wrap {
@@ -278,6 +273,15 @@ main {
 	line-height: 1.25em;
 }
 
+@-webkit-keyframes fade-in {
+	0% {
+	color: rgba(0,0,0,0);
+		}
+	100% {
+	color: #333;
+		}
+}
+
 @keyframes fade-in {
 	0% {
 	color: rgba(0,0,0,0);
@@ -309,11 +313,14 @@ main {
 
 .hey {
 	0 0 1.5rem;
-	animation: fade-in 1s 3s ease-in forwards;
+	-webkit-animation: fade-in 1s 3s ease-in forwards;
+	0 0 1.5rem;
+	        animation: fade-in 1s 3s ease-in forwards;
 }
 
 .extra {
-	animation: fade-in 1s 5s ease-in forwards;
+	-webkit-animation: fade-in 1s 5s ease-in forwards;
+	        animation: fade-in 1s 5s ease-in forwards;
 }
 
 
@@ -391,8 +398,6 @@ text-align: center;
 }
 
 .section-heading{
-	-webkit-box-shadow: 0px 25px 50px -6px rgba(0,0,0,0.2);
-	-moz-box-shadow: 0px 25px 50px -6px rgba(0,0,0,0.2);
 	box-shadow: 0px 25px 50px -6px rgba(0,0,0,0.2);
 	position: relative;
 	max-width: 20em;
@@ -449,8 +454,10 @@ text-align: center;
   -webkit-overflow-scrolling: touch;
   -webkit-scroll-snap-type: mandatory;
   -webkit-scroll-snap-points-x: repeat(50%);
-	scroll-snap-type: mandatory;
-  scroll-snap-points-x: repeat(50%);
+	-ms-scroll-snap-type: mandatory;
+	    scroll-snap-type: mandatory;
+  -ms-scroll-snap-points-x: repeat(50%);
+      scroll-snap-points-x: repeat(50%);
   z-index:2;
   background-color: #444;
   background: linear-gradient(#4f4f4f 20%, #555)
@@ -476,14 +483,12 @@ text-align: center;
 
 
 ::-webkit-scrollbar-track {
-    -webkit-border-radius: 1px;
     border-radius: 1px;
     background: #ccc;
 }
 
 
 ::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 1px;
     border-radius: 0 0 10px 10px;
     background: rgba(0,0,0,0.2);
 }
