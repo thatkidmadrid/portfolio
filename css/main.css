@@ -378,7 +378,7 @@ main {
 
 .contact-overlay {
 	background-color: rgba(255,255,255,0.5);
-	padding: 2em 0.5em;
+	padding: 2em 0;
 	border-radius: 0.5em;
 }
 
