@@ -371,14 +371,14 @@ main {
 /*======================================*/
 
 .contact-info {
-	padding: 4em 2em;
+	padding: 4em 0 2em;
 	width: 100%;
 	background-color: #000;
 }
 
 .contact-overlay {
 	background-color: rgba(255,255,255,0.5);
-	padding: 2em 1em;
+	padding: 2em 0.5em;
 	border-radius: 0.5em;
 }
 
