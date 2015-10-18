@@ -9,89 +9,100 @@
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-	<header>
-		<div class="header-text" title="test title">
-			<h1 class="exa">that<em>kid</em>madrid</h1>
-			<h2 class="peta">Designing creative solutions</h2>
-		</div>
-		<a class="nav-button" href="#"><img src="img/burger.svg" alt="nav button"></a>
-		<nav class="push-0">
-			<ul class="grid">
-					<li class="unit unit-xs-1"><a href="#branding">Branding</a></li>
-					<li class="unit unit-xs-1"><a href="#motion">Motion</a></li>
-					<li class="unit unit-xs-1"><a href="#webdev">Web Design</a></li>
-					<li class="unit unit-xs-1"><a href="#packaging">Packaging</a></li>
-					<li class="unit unit-xs-1"><a href="#contact">Contact Me</a></li>
-			</ul>
-		</nav>
 
-	</header>
+	<ul class="skip-links">
+		<li><a href="#main">Skip to main Content</a></li>
+		<li><a href="#portfolio">Skip to Portfolio</a></li>
+		<li><a href="#contact">Skip to Contact Info</a></li>
+	</ul>
 
-	<main>
-		<div class="about-me">
-			<img class="about-me-img" src="img/placeholder.jpg" alt="about me background">
-			<div class="about-me-text">
-				<h3><em class="hey">Hey!</em> I'm Carl Christian Madrid<br><em class="extra">(that Kid Madrid)</em></h3>
-				<p>I'm a Graphic Designer from Ottawa, Canada<em class="extra">, and I am passionate about, simple, creative, solutions for web and print media</em></p>
+	<ul class="navigation" role="navigation" id="navigation">
+		<li class="nav-item"><a href="#branding">Branding</a></li>
+		<li class="nav-item"><a href="#motion">Motion</a></li>
+		<li class="nav-item"><a href="#webdev">Web Design</a></li>
+		<li class="nav-item"><a href="#packaging">Packaging</a></li>
+		<li class="nav-item"><a href="#contact">Contact Me</a></li>
+	</ul>
+	<div class="nav-ui">
+		<a class="open" href="#navigation"></a>
+		<a class="close" href="#"></a>
+	</div>
+
+
+	<div class="site-wrap" role="main">
+		<header id="top">
+			<h1><a class="wordmark" href="#top">thatkidmadrid</a></h1>
+			<!-- <h5>Designing creative solutions</h5> -->
+
+		</header>
+
+		<main id="main">
+			<div class="banner about-me">
+				<img class="banner-img" src="img/placeholder.jpg" alt="framed animation for banner">
+				<div class="about-me-text">
+					<h2><em class="hey">Hey!</em> I'm Carl Christian Madrid<br><em class="extra">(that Kid Madrid)</em></h2>
+				<p>I'm a Graphic Designer from Ottawa, Canada,<em class="extra"> and I am passionate about, simple, creative, solutions for web and print media</em></p>
+				</div>
 			</div>
-		</div>
 
+			<div class="portfolio" id="portfolio">
+				<div class="section section-1" id="branding">
+					<h3 class="section-heading">Branding</h3>
+					<div class="section-gallery branding">
+						<ul class="layer-strip grid">
+							<li class="unit"><a href="#lightbox" class="grayscale"><img src="img/placeholder.jpg"></a></li>
+							<li class="unit"><a href="item.html" class="grayscale"><img src="img/placeholder.jpg"></a></li>
+							<li class="unit"><a href="item.html" class="grayscale"><img src="img/placeholder.jpg"></a></li>
+							<li class="unit"><a href="item.html" class="grayscale"><img src="img/placeholder.jpg"></a></li>
+							<li class="unit"><a href="item.html" class="grayscale"><img src="img/placeholder.jpg"></a></li>
+							<li class="unit"><a href="item.html" class="grayscale"><img src="img/placeholder.jpg"></a></li>
+						</ul>
+					</div>
+				</div>
 
-		<div class="section section-1" id="branding">
-			<h3 class="section-heading">Branding</h3>
-			<div class="section-gallery branding">
-				<ul class="layer-strip grid">
-					<li class="unit"><a href="item.html"><img src="img/placeholder.jpg"></a></li>
-					<li class="unit"><a href="item.html"><img src="img/placeholder.jpg"></a></li>
-					<li class="unit"><a href="item.html"><img src="img/placeholder.jpg"></a></li>
-					<li class="unit"><a href="item.html"><img src="img/placeholder.jpg"></a></li>
-					<li class="unit"><a href="item.html"><img src="img/placeholder.jpg"></a></li>
-					<li class="unit"><a href="item.html"><img src="img/placeholder.jpg"></a></li>
-				</ul>
+				<div class="section section-2" id="motion">
+					<h3 class="section-heading">Motion</h3>
+					<div class="section-gallery motion">
+						<ul class="layer-strip grid">
+							<li class="unit"><a href="item.html" class="grayscale"><img src="img/placeholder.jpg"></a></li>
+							<li class="unit"><a href="item.html" class="grayscale"><img src="img/placeholder.jpg"></a></li>
+							<li class="unit"><a href="item.html" class="grayscale"><img src="img/placeholder.jpg"></a></li>
+							<li class="unit"><a href="item.html" class="grayscale"><img src="img/placeholder.jpg"></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="section section-3" id="webdev">
+					<h3 class="section-heading">Web Development</h3>
+					<div class="section-gallery webdev">
+						<ul class="layer-strip grid">
+							<li class="unit"><a href="item.html" class="grayscale"><img src="img/placeholder.jpg"></a></li>
+							<li class="unit"><a href="item.html" class="grayscale"><img src="img/placeholder.jpg"></a></li>
+							<li class="unit"><a href="item.html" class="grayscale"><img src="img/placeholder.jpg"></a></li>
+							<li class="unit"><a href="item.html" class="grayscale"><img src="img/placeholder.jpg"></a></li>
+							<li class="unit"><a href="item.html" class="grayscale"><img src="img/placeholder.jpg"></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="section section-4" id="packaging">
+					<h3 class="section-heading">Packaging</h3>
+					<div class="section-gallery packaging">
+						<ul class="layer-strip grid">
+							<li class="unit"><a href="item.html" class="grayscale"><img src="img/placeholder.jpg"></a></li>
+							<li class="unit"><a href="item.html" class="grayscale"><img src="img/placeholder.jpg"></a></li>
+							<li class="unit"><a href="item.html" class="grayscale"><img src="img/placeholder.jpg"></a></li>
+							<li class="unit"><a href="item.html" class="grayscale"><img src="img/placeholder.jpg"></a></li>
+						</ul>
+					</div>
+				</div>
 			</div>
-		</div>
 
-		<div class="section section-2" id="motion">
-			<h3 class="section-heading">Motion</h3>
-			<div class="section-gallery motion">
-				<ul class="layer-strip grid">
-					<li class="unit"><a href="item.html"><img src="img/placeholder.jpg"></a></li>
-					<li class="unit"><a href="item.html"><img src="img/placeholder.jpg"></a></li>
-					<li class="unit"><a href="item.html"><img src="img/placeholder.jpg"></a></li>
-					<li class="unit"><a href="item.html"><img src="img/placeholder.jpg"></a></li>
-				</ul>
-			</div>
-		</div>
-
-		<div class="section section-3" id="webdev">
-			<h3 class="section-heading">Web Development</h3>
-			<div class="section-gallery webdev">
-				<ul class="layer-strip grid">
-					<li class="unit"><a href="item.html"><img src="img/placeholder.jpg"></a></li>
-					<li class="unit"><a href="item.html"><img src="img/placeholder.jpg"></a></li>
-					<li class="unit"><a href="item.html"><img src="img/placeholder.jpg"></a></li>
-					<li class="unit"><a href="item.html"><img src="img/placeholder.jpg"></a></li>
-					<li class="unit"><a href="item.html"><img src="img/placeholder.jpg"></a></li>
-				</ul>
-			</div>
-		</div>
-
-		<div class="section section-4" id="packaging">
-			<h3 class="section-heading">Packaging</h3>
-			<div class="section-gallery packaging">
-				<ul class="layer-strip grid">
-					<li class="unit"><a href="item.html"><img src="img/placeholder.jpg"></a></li>
-					<li class="unit"><a href="item.html"><img src="img/placeholder.jpg"></a></li>
-					<li class="unit"><a href="item.html"><img src="img/placeholder.jpg"></a></li>
-					<li class="unit"><a href="item.html"><img src="img/placeholder.jpg"></a></li>
-				</ul>
-			</div>
-		</div>
-
-		<div class="contact-info" id="contact">
+			<div class="contact-info" id="contact">
 			<h3>Here is the best way to contact me</h3>
-				<a class="email" href="mailto:get@thatkidmadrid.com"><p class="giga">get@thatkidmadrid.com</p></a>
+			<p class="giga"><a class="email" href="mailto:get@thatkidmadrid.com">get@thatkidmadrid.com</a></p>
 			<h3>and here are links to my social media</h3>
 				<ul class="contact-info-list">
 					<li><a href="http://www.behance.net/kidmadrid" target="_blank"><img src="img/behance.svg" alt="Behance"></a></li>
@@ -101,11 +112,32 @@
 					<li><a href="http://www.offthedome.ca" target="_blank"><img src="img/otd.svg" alt="Off The Dome"></a></li>
 				</ul>
 			</div>
-	</main>
-	<footer>
-	<p>&copy; thatkidmadrid 2015<p>
-	</footer>
+		</main>
 
+		<footer role="contentinfo">
+		<p>&copy; thatkidmadrid 2015<p>
+		</footer>
+
+		<div class="lightbox" id="lightbox">
+			<a href="#">close</a>
+			<div class="lb-content grid">
+				<div class="lb-img unit unit-xs-1">
+
+				</div>
+				<div class="lb-desc unit">
+
+				</div>
+				<div class="lb-thumbs unit">
+				<ul>
+					<li>
+
+					</li>
+				</ul>
+				</div>
+			</div>
+		</div>
+
+	</div><!-- end site-wrap -->
 </body>
 </html>
 
