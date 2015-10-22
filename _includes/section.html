@@ -1,0 +1,12 @@
+{% for category in site.categories %}
+<div class="section" id="{{category[0]}}">
+	<h3 class="section-heading">{{category[0]}}</h3>
+	<div class="section-gallery {{category[0]}}">
+		<ul class="layer-strip grid">
+			{% for post in category[1] %}
+			<li class="unit"><a href="#lightbox" class="grayscale"><img src="{{post.img}}"></a></li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>
+{% endfor %}

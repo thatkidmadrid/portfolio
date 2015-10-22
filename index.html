@@ -1,45 +1,9 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>thatkidmadrid portfolio</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/grid.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
-  <link href="css/typography.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-	<ul class="skip-links">
-		<li><a href="#main">Skip to main Content</a></li>
-		<li><a href="#portfolio">Skip to Portfolio</a></li>
-		<li><a href="#contact">Skip to Contact Info</a></li>
-	</ul>
-
-	<ul class="navigation" role="navigation" id="navigation">
-		<li class="nav-item"><a href="#branding">Branding</a></li>
-		<li class="nav-item"><a href="#motion">Motion</a></li>
-		<li class="nav-item"><a href="#webdev">Web Design</a></li>
-		<li class="nav-item"><a href="#packaging">Packaging</a></li>
-		<li class="nav-item"><a href="#contact">Contact Me</a></li>
-	</ul>
-	<div class="nav-ui">
-		<a class="open" href="#navigation"></a>
-		<a class="close" href="#"></a>
-	</div>
+---
+layout: default
+title: Homepage
+---
 
 
-	<div class="site-wrap" role="main">
-		<header id="top">
-			<h1><a class="wordmark" href="#top">thatkidmadrid</a></h1>
-			<!-- <h5>Designing creative solutions</h5> -->
-
-		</header>
-
-		<div class="main" id="main">
 			<div class="about-me" role="banner">
 				<img class="banner-img" src="img/banner-temp.jpg" alt="framed animation for banner">
 				<div class="about-me-text">
@@ -50,57 +14,8 @@
 			</div>
 
 			<div class="portfolio" id="portfolio">
-				<div class="section section-1" id="branding">
-					<h3 class="section-heading">Branding</h3>
-					<div class="section-gallery branding">
-						<ul class="layer-strip grid">
-							<li class="unit"><a href="#lightbox" class="grayscale"><img src="img/placeholder.jpg"></a></li>
-							<li class="unit"><a href="#lightbox" class="grayscale"><img src="img/placeholder.jpg"></a></li>
-							<li class="unit"><a href="#lightbox" class="grayscale"><img src="img/placeholder.jpg"></a></li>
-							<li class="unit"><a href="#lightbox" class="grayscale"><img src="img/placeholder.jpg"></a></li>
-							<li class="unit"><a href="#lightbox" class="grayscale"><img src="img/placeholder.jpg"></a></li>
-							<li class="unit"><a href="#lightbox" class="grayscale"><img src="img/placeholder.jpg"></a></li>
-						</ul>
-					</div>
-				</div>
 
-				<div class="section section-2" id="motion">
-					<h3 class="section-heading">Motion</h3>
-					<div class="section-gallery motion">
-						<ul class="layer-strip grid">
-							<li class="unit"><a href="#lightbox" class="grayscale"><img src="img/madrid-christian-assignment-01.gif"></a></li>
-							<li class="unit"><a href="#lightbox" class="grayscale"><img src="img/placeholder.jpg"></a></li>
-							<li class="unit"><a href="#lightbox" class="grayscale"><img src="img/placeholder.jpg"></a></li>
-							<li class="unit"><a href="#lightbox" class="grayscale"><img src="img/placeholder.jpg"></a></li>
-						</ul>
-					</div>
-				</div>
-
-				<div class="section section-3" id="webdev">
-					<h3 class="section-heading">Web Development</h3>
-					<div class="section-gallery webdev">
-						<ul class="layer-strip grid">
-							<li class="unit"><a href="#lightbox" class="grayscale"><img src="img/placeholder.jpg"></a></li>
-							<li class="unit"><a href="#lightbox" class="grayscale"><img src="img/placeholder.jpg"></a></li>
-							<li class="unit"><a href="#lightbox" class="grayscale"><img src="img/placeholder.jpg"></a></li>
-							<li class="unit"><a href="#lightbox" class="grayscale"><img src="img/placeholder.jpg"></a></li>
-							<li class="unit"><a href="#lightbox" class="grayscale"><img src="img/placeholder.jpg"></a></li>
-						</ul>
-					</div>
-				</div>
-
-				<div class="section section-4" id="packaging">
-					<h3 class="section-heading">Packaging</h3>
-					<div class="section-gallery packaging">
-						<ul class="layer-strip grid">
-							<li class="unit"><a href="#lightbox" class="grayscale"><img src="img/placeholder.jpg"></a></li>
-							<li class="unit"><a href="#lightbox" class="grayscale"><img src="img/placeholder.jpg"></a></li>
-							<li class="unit"><a href="#lightbox" class="grayscale"><img src="img/placeholder.jpg"></a></li>
-							<li class="unit"><a href="#lightbox" class="grayscale"><img src="img/placeholder.jpg"></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
+				{% include section.html %}
 
 			<div class="contact-info" id="contact">
 			<div class="contact-overlay">
@@ -116,40 +31,7 @@
 					</ul>
 				</div>
 			</div>
-		</div>
-
-		<footer role="contentinfo">
-		<p>&copy; thatkidmadrid 2015<p>
-		</footer>
 
 
 
-	</div><!-- end site-wrap -->
-	<div class="lightbox" id="lightbox">
-			<a href="#" class="lb-close">X</a>
-			<div class="lb-content grid">
-				<div class="lb-img unit unit-xs-1">
-					<img src="img/madrid-christian-assignment-01.gif">
-				</div>
-				<div class="lb-desc unit unit-xs-1 island-1-2">
-				<h2>Nike Looping .gif</h2>
-					<p>This short motion piece is an infinitely looping scene of a shoe being laced</p>
-				</div>
-				<div class="lb-thumbs unit unit-xs-1 island-1-2">
-				<ul class="grid">
-					<li class="unit unit-xs-1-3 thumbnail">
-						<img src="img/madrid-christian-assignment-01.gif" alt="thumbnail">
-					</li>
-					<li class="unit unit-xs-1-3 thumbnail">
-						<img src="img/madrid-christian-assignment-01.gif" alt="thumbnail">
-					</li>
-					<li class="unit unit-xs-1-3 thumbnail">
-						<img src="img/madrid-christian-assignment-01.gif" alt="thumbnail">
-					</li>
-				</ul>
-				</div>
-			</div>
-		</div>
-</body>
-</html>
 
