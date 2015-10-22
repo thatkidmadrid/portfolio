@@ -1,0 +1,67 @@
+- section: branding
+  units:
+  - title: placeholder
+    folder: branding
+    meta: This is a placeholding thing
+    img: img/placeholder.jpg
+
+  - title: placeholder-2
+    folder: branding
+    meta: This is a placeholding thing
+    img: img/placeholder.jpg
+
+  - title: placeholder-3
+    folder: branding
+    meta: This is a placeholding thing
+    img: img/placeholder.jpg
+
+- section: motion
+  units:
+  - title: placeholder
+    folder: branding
+    meta: This is looping gif
+    img: img/madrid-christian-assignment-01.gif
+
+  - title: placeholder-2
+    folder: branding
+    meta: This is a placeholding thing
+    img: img/placeholder.jpg
+
+  - title: placeholder-3
+    folder: branding
+    meta: This is a placeholding thing
+    img: img/placeholder.jpg
+
+- section: webdev
+  units:
+  - title: placeholder
+    folder: branding
+    meta: This is a placeholding thing
+    img: img/placeholder.jpg
+
+  - title: placeholder-2
+    folder: branding
+    meta: This is a placeholding thing
+    img: img/placeholder.jpg
+
+  - title: placeholder-3
+    folder: branding
+    meta: This is a placeholding thing
+    img: img/placeholder.jpg
+
+- section: packaging
+  units:
+  - title: placeholder
+    folder: branding
+    meta: This is a placeholding thing
+    img: img/placeholder.jpg
+
+  - title: placeholder-2
+    folder: branding
+    meta: This is a placeholding thing
+    img: img/placeholder.jpg
+
+  - title: placeholder-3
+    folder: branding
+    meta: This is a placeholding thing
+    img: img/placeholder.jpg
