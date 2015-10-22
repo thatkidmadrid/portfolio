@@ -9,33 +9,27 @@
   <link href="{{site.baseurl}}css/typography.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
 </head>
-
 <body>
 
 	{% include skip-links.html %}
 
 	{% include nav.html %}
 
+	{% include lightbox.html %}
 
 	<div class="site-wrap" role="main">
-		<header id="top">
-			<h1><a class="wordmark" href="#top">thatkidmadrid</a></h1>
-			<!-- <h5>Designing creative solutions</h5> -->
-		</header>
+
+		{% include header.html %}
+
 		<div class="main" id="main">
 
-		{{content}}
+			{{content}}
 
 		</div>
-		<footer role="contentinfo">
-		<p>&copy; thatkidmadrid 2015<p>
-		</footer>
 
-
+		{% include footer.html %}
 
 	</div><!-- end site-wrap -->
-
-	{% include lightbox.html %}
 
 </body>
 </html>
