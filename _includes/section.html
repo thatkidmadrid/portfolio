@@ -1,27 +1,20 @@
-<!-- {% for category in site.categories %}
-<div class="section" id="{{category[0]}}">
-	<h3 class="section-heading">{{category[0]}}</h3>
-	<div class="section-gallery {{category[0]}}">
-		<ul class="layer-strip grid">
-			{% for post in category[1] %}
-			<li class="unit"><a href="#lightbox" class="grayscale"><img src="{{post.img}}" alt=""></a></li>
-			{% endfor %}
-		</ul>
-	</div>
-</div>
-{% endfor %} -->
-
 {% for a in site.data.pieces %}
+{% assign counter=0 %}
 <div class="section" id="{{a.section}}">
 	<h3 class="section-heading">{{a.section}}</h3>
 	<div class="section-gallery {{a.section}}">
 
-		<ul class="layer-strip grid">
+		<ul class="layer-strip layer-strip-{{a.section}} grid">
 		{% for b in a.units %}
-			<li class="unit"><a href="#lightbox" class="grayscale"><img src="{{b.img}}" alt=""></a></li>
+			<li class="unit"><a href="#{{b.id}}" class="grayscale"><img src="{{b.img}}" alt=""></a></li>
+			{% assign counter=counter | plus:1 %}
 		{% endfor %}
 		</ul>
-
 	</div>
+	<style>
+	.layer-strip-{{a.section}} {
+		width: calc({{counter}} * 15.25em)
+	}
+	</style>
 </div>
 {% endfor %}

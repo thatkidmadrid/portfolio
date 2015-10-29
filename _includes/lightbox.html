@@ -1,11 +1,37 @@
-<div class="lightbox" id="lightbox">
+{% for a in site.data.pieces %}
+
+		{% for b in a.units %}
+			<div class="lightbox" id="{{b.id}}">
 
 	<a href="#" class="lb-close">X</a>
 
 	<div class="lb-content grid">
 
-		{% include lightbox-content.html %}
+		<div class="lb-img unit unit-xs-1">
+					<img src="{{b.img}}">
+				</div>
+
+				<div class="lb-desc unit unit-xs-1 island-1-2">
+					<h2>{{b.title}}</h2>
+					<p>{{b.desc}}</p>
+				</div>
+
+				<div class="lb-thumbs unit unit-xs-1 island-1-2">
+					<ul class="grid">
+
+					{% for c in b.thumbnail %}
+						<li class="unit unit-xs-1-3 thumbnail">
+							<img src="{{c.thumb}}" alt="thumbnail">
+						</li>
+					{% endfor %}
+
+					</ul>
+		</div>
 
 	</div>
 
 </div>
+
+		{% endfor %}
+
+{% endfor %}

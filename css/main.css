@@ -110,13 +110,13 @@ main {
 	position: absolute;
 }
 
-#lightbox:target {
+.lightbox:target {
 	z-index: 50;
 	opacity: 1;
 	transition: all 500ms;
 }
 
-#lightbox:target ~ .site-wrap {
+.lightbox:target ~ .site-wrap {
 	height: 100vh;
 	overflow: hidden;
 }
