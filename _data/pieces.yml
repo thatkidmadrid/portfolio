@@ -1,44 +1,44 @@
 - section: branding
   units:
-  - title: placeholder-1
+  - title: branding-1
     desc: This is a placeholding thing
     folder: branding
     meta: This is a placeholding thing
     img: img/placeholder.jpg
-    id: item-1
+    id: branding-1
     thumbnail:
       - thumb: img/placeholder.jpg
       - thumb: img/placeholder.jpg
       - thumb: img/placeholder.jpg
 
-  - title: placeholder-2
+  - title: branding-2
     desc: This is a placeholding thing
     folder: branding
     meta: This is a placeholding thing
     img: img/placeholder.jpg
-    id: item-1
+    id: branding-2
     thumbnail:
       - thumb: img/placeholder.jpg
       - thumb: img/placeholder.jpg
       - thumb: img/placeholder.jpg
 
-  - title: placeholder-3
+  - title: branding-3
     desc: This is a placeholding thing
     folder: branding
     meta: This is a placeholding thing
     img: img/placeholder.jpg
-    id: item-1
+    id: branding-3
     thumbnail:
       - thumb: img/placeholder.jpg
       - thumb: img/placeholder.jpg
       - thumb: img/placeholder.jpg
 
-  - title: placeholder-4
+  - title: branding-4
     desc: This is a placeholding thing
     folder: branding
     meta: This is a placeholding thing
     img: img/placeholder.jpg
-    id: item-1
+    id: branding-4
     thumbnail:
       - thumb: img/placeholder.jpg
       - thumb: img/placeholder.jpg
