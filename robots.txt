@@ -1,0 +1,3 @@
+Sitemap: https://thatkidmadrid.ca/sitemap.xml
+
+User-agent: *
