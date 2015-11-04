@@ -61,6 +61,10 @@ body {
 	-webkit-overflow-scrolling: touch;
 }
 
+.hide {
+	display: none;
+}
+
 header{
 	background-color: #111;
 	height: 5em;
