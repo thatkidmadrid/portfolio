@@ -1,6 +1,6 @@
 	<ul class="navigation" role="navigation" id="navigation">
-		{% for target in site.categories %}
-		<li class="nav-item"><a href="#{{target}}">{{target}}</a></li>
+		{% for a in site.data.pieces %}
+		<li class="nav-item"><a href="#{{a.section}}">{{a.section}}</a></li>
 		{% endfor %}
 		<li class="nav-item"><a href="#contact">Contact Me</a></li>
 	</ul>
