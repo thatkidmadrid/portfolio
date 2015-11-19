@@ -7,8 +7,8 @@
     img: img/otd-thumb.jpg
     id: motion-1
     thumbnail:
-      - thumb: img/otd-sketch-01.jpg
-      - thumb: img/otd-sketch-02.jpg
+      - thumb: img/otd-sketches-01.jpg
+      - thumb: img/otd-sketches-02.jpg
       - thumb: img/otd-logos.jpg
 
   - title: Karlyn's Cookies
