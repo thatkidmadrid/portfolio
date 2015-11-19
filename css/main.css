@@ -328,6 +328,7 @@ main {
 @media only screen and (min-width: 35em){
 	.about-me-text {
 		position: absolute;
+
 		background-color: rgba(255,255,255,0.7)
 	}
 }
