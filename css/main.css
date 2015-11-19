@@ -122,7 +122,6 @@ main {
 }
 
 .lightbox a {
-	position: absolute;
 }
 
 .lightbox:target {
@@ -141,7 +140,7 @@ main {
 	height: 100%;
 	margin: 0em;
 	background-color: #000;
-	overflow: hidden;
+/*	overflow: hidden;*/
 }
 
 .lb-img{
@@ -154,16 +153,16 @@ main {
 
 .lb-img img {
 	display: block;
-	height: 15em;
+	width: 100%;
 }
 
 .lb-thumbs {
-	overflow: hidden;
 }
 
 .lb-desc {
 	background-color: #fff;
 	padding: 1em;
+	max-height: 66.666vw;
 }
 
 
@@ -175,7 +174,7 @@ main {
 
 .thumbnail a {
 	display: block;
-	width: calc(33% - 1em)
+	width: calc(100% - 1em)
 }
 
 .thumbnail {
@@ -184,6 +183,7 @@ main {
 }
 
 .lb-close {
+	position: absolute;
 	top:1em;
 	left: 1em;
 	text-decoration: none;
