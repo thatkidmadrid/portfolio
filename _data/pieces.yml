@@ -1,85 +1,39 @@
 - section: branding
   units:
-  - title: branding-1
-    desc: This is a placeholding thing
+  - title: Off The Dome
+    desc: This is a logo designed for a local custom hat manufacturer
     folder: branding
-    meta: This is a placeholding thing
-    img: img/placeholder.jpg
-    id: branding-1
-    thumbnail:
-      - thumb: img/placeholder.jpg
-      - thumb: img/placeholder.jpg
-      - thumb: img/placeholder.jpg
-
-  - title: branding-2
-    desc: This is a placeholding thing
-    folder: branding
-    meta: This is a placeholding thing
-    img: img/placeholder.jpg
-    id: branding-2
-    thumbnail:
-      - thumb: img/placeholder.jpg
-      - thumb: img/placeholder.jpg
-      - thumb: img/placeholder.jpg
-
-  - title: branding-3
-    desc: This is a placeholding thing
-    folder: branding
-    meta: This is a placeholding thing
-    img: img/placeholder.jpg
-    id: branding-3
-    thumbnail:
-      - thumb: img/placeholder.jpg
-      - thumb: img/placeholder.jpg
-      - thumb: img/placeholder.jpg
-
-  - title: branding-4
-    desc: This is a placeholding thing
-    folder: branding
-    meta: This is a placeholding thing
-    img: img/placeholder.jpg
-    id: branding-4
-    thumbnail:
-      - thumb: img/placeholder.jpg
-      - thumb: img/placeholder.jpg
-      - thumb: img/placeholder.jpg
-
-- section: motion
-  units:
-  - title: Nike looping gif
-    desc: This is a looping gif
-    folder: branding
-    meta: This is looping gif
-    img: img/madrid-christian-assignment-01.gif
+    meta: This is a logo designed for a local custom hat manufacturer
+    img: img/otd-thumb.jpg
     id: motion-1
     thumbnail:
-      - thumb: img/madrid-christian-assignment-01.gif
-      - thumb: img/madrid-christian-assignment-01.gif
-      - thumb: img/madrid-christian-assignment-01.gif
+      - thumb: img/otd-sketch-01.jpg
+      - thumb: img/otd-sketch-02.jpg
+      - thumb: img/otd-logos.jpg
 
-  - title: motion-2
-    desc: This is a placeholding thing
-    folder: motion
-    meta: This is a placeholding thing
-    img: img/placeholder.jpg
-    id: motion-2
+  - title: Karlyn's Cookies
+    desc: This is a logo designed for a baking company that specializes in cookies and similar baked treats
+    folder: branding
+    meta: This is a logo designed for a baking company that specializes in cookies and similar baked treats
+    img: img/karlyns-cookies.png
+    id: branding-2
     thumbnail:
-      - thumb: img/placeholder.jpg
-      - thumb: img/placeholder.jpg
-      - thumb: img/placeholder.jpg
+      - thumb: img/karlyns-cookies-sketch-01.jpg
+      - thumb: img/karlyns-cookies-sketch-02.jpg
+      - thumb: img/karlyns-cookies-sketch-03.jpg
 
-  - title: motion-3
-    desc: This is a placeholding thing
-    folder: motion
-    meta: This is a placeholding thing
-    img: img/placeholder.jpg
-    id: motion-3
+  - title: L.O.C.K.
+    desc: Ticket and logo design for Living Out Christ the King Praise Concert presented by CFC Youth Ottawa
+    folder: branding
+    meta: Ticket and logo design for Living Out Christ the King Praise Concert presented by CFC Youth Ottawa
+    img: img/lock-thumb.jpg
+    id: branding-3
     thumbnail:
-      - thumb: img/placeholder.jpg
-      - thumb: img/placeholder.jpg
-      - thumb: img/placeholder.jpg
+      - thumb: img/lock-sketch.jpg
+      - thumb: img/lock-logo.jpg
+      - thumb: img/lock-tickets.jpg
 
-- section: webdev
+- section: motion
   units:
   - title: webdev-1
     desc: This is a placeholding thing
@@ -103,37 +57,142 @@
       - thumb: img/placeholder.jpg
       - thumb: img/placeholder.jpg
 
-- section: packaging
-  units:
-  - title: packaging-1
-    desc: This is a placeholding thing
-    folder: packaging
-    meta: This is a placeholding thing
-    img: img/placeholder.jpg
-    id: packaging-1
-    thumbnail:
-      - thumb: img/placeholder.jpg
-      - thumb: img/placeholder.jpg
-      - thumb: img/placeholder.jpg
+# - section: branding
+#   units:
+#   - title: branding-1
+#     desc: This is a placeholding thing
+#     folder: branding
+#     meta: This is a placeholding thing
+#     img: img/placeholder.jpg
+#     id: branding-1
+#     thumbnail:
+#       - thumb: img/placeholder.jpg
+#       - thumb: img/placeholder.jpg
+#       - thumb: img/placeholder.jpg
 
-  - title: packaging-2
-    desc: This is a placeholding thing
-    folder: packaging
-    meta: This is a placeholding thing
-    img: img/placeholder.jpg
-    id: packaging-2
-    thumbnail:
-      - thumb: img/placeholder.jpg
-      - thumb: img/placeholder.jpg
-      - thumb: img/placeholder.jpg
+#   - title: branding-2
+#     desc: This is a placeholding thing
+#     folder: branding
+#     meta: This is a placeholding thing
+#     img: img/placeholder.jpg
+#     id: branding-2
+#     thumbnail:
+#       - thumb: img/placeholder.jpg
+#       - thumb: img/placeholder.jpg
+#       - thumb: img/placeholder.jpg
 
-  - title: packaging-3
-    desc: This is a placeholding thing
-    folder: packaging
-    meta: This is a placeholding thing
-    img: img/placeholder.jpg
-    id: packaging-3
-    thumbnail:
-      - thumb: img/placeholder.jpg
-      - thumb: img/placeholder.jpg
-      - thumb: img/placeholder.jpg
+#   - title: branding-3
+#     desc: This is a placeholding thing
+#     folder: branding
+#     meta: This is a placeholding thing
+#     img: img/placeholder.jpg
+#     id: branding-3
+#     thumbnail:
+#       - thumb: img/placeholder.jpg
+#       - thumb: img/placeholder.jpg
+#       - thumb: img/placeholder.jpg
+
+#   - title: branding-4
+#     desc: This is a placeholding thing
+#     folder: branding
+#     meta: This is a placeholding thing
+#     img: img/placeholder.jpg
+#     id: branding-4
+#     thumbnail:
+#       - thumb: img/placeholder.jpg
+#       - thumb: img/placeholder.jpg
+#       - thumb: img/placeholder.jpg
+
+# - section: motion
+#   units:
+#   - title: Nike looping gif
+#     desc: This is a looping gif
+#     folder: branding
+#     meta: This is looping gif
+#     img: img/madrid-christian-assignment-01.gif
+#     id: motion-1
+#     thumbnail:
+#       - thumb: img/madrid-christian-assignment-01.gif
+#       - thumb: img/madrid-christian-assignment-01.gif
+#       - thumb: img/madrid-christian-assignment-01.gif
+
+#   - title: motion-2
+#     desc: This is a placeholding thing
+#     folder: motion
+#     meta: This is a placeholding thing
+#     img: img/placeholder.jpg
+#     id: motion-2
+#     thumbnail:
+#       - thumb: img/placeholder.jpg
+#       - thumb: img/placeholder.jpg
+#       - thumb: img/placeholder.jpg
+
+#   - title: motion-3
+#     desc: This is a placeholding thing
+#     folder: motion
+#     meta: This is a placeholding thing
+#     img: img/placeholder.jpg
+#     id: motion-3
+#     thumbnail:
+#       - thumb: img/placeholder.jpg
+#       - thumb: img/placeholder.jpg
+#       - thumb: img/placeholder.jpg
+
+# - section: webdev
+#   units:
+#   - title: webdev-1
+#     desc: This is a placeholding thing
+#     folder: webdev
+#     meta: This is a placeholding thing
+#     img: img/placeholder.jpg
+#     id: webdev-1
+#     thumbnail:
+#       - thumb: img/placeholder.jpg
+#       - thumb: img/placeholder.jpg
+#       - thumb: img/placeholder.jpg
+
+#   - title: webdev-2
+#     desc: This is a placeholding thing
+#     folder: webdev
+#     meta: This is a placeholding thing
+#     img: img/placeholder.jpg
+#     id: webdev-2
+#     thumbnail:
+#       - thumb: img/placeholder.jpg
+#       - thumb: img/placeholder.jpg
+#       - thumb: img/placeholder.jpg
+
+# - section: packaging
+#   units:
+#   - title: packaging-1
+#     desc: This is a placeholding thing
+#     folder: packaging
+#     meta: This is a placeholding thing
+#     img: img/placeholder.jpg
+#     id: packaging-1
+#     thumbnail:
+#       - thumb: img/placeholder.jpg
+#       - thumb: img/placeholder.jpg
+#       - thumb: img/placeholder.jpg
+
+#   - title: packaging-2
+#     desc: This is a placeholding thing
+#     folder: packaging
+#     meta: This is a placeholding thing
+#     img: img/placeholder.jpg
+#     id: packaging-2
+#     thumbnail:
+#       - thumb: img/placeholder.jpg
+#       - thumb: img/placeholder.jpg
+#       - thumb: img/placeholder.jpg
+
+#   - title: packaging-3
+#     desc: This is a placeholding thing
+#     folder: packaging
+#     meta: This is a placeholding thing
+#     img: img/placeholder.jpg
+#     id: packaging-3
+#     thumbnail:
+#       - thumb: img/placeholder.jpg
+#       - thumb: img/placeholder.jpg
+#       - thumb: img/placeholder.jpg
