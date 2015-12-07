@@ -1,4 +1,4 @@
-- section: branding
+- section: portfolio
   units:
   - title: Off The Dome
     desc: This is a logo designed for a local custom hat manufacturer
@@ -6,6 +6,8 @@
     meta: This is a logo designed for a local custom hat manufacturer
     img: img/otd-thumb.jpg
     id: motion-1
+    preview:
+      - thumb: https://portfolio-2341.kxcdn.com/otd-thumb.mp4
     thumbnail:
       - thumb: img/otd-sketches-01.jpg
       - thumb: img/otd-sketches-02.jpg
@@ -33,18 +35,30 @@
       - thumb: img/lock-logo.jpg
       - thumb: img/lock-tickets.jpg
 
-- section: motion
-  units:
-  - title: webdev-1
+  - title: PlayTime!
+    desc: Graphic Design and UI for wellness app in development in ARI
+    folder: branding
+    meta: Graphic Design and UI for wellness app in development in ARI
+    img: img/lock-thumb.jpg
+    id: branding-4
+    thumbnail:
+      - thumb: img/lock-sketch.jpg
+      - thumb: img/lock-logo.jpg
+      - thumb: img/lock-tickets.jpg
+
+  - title: 3 Second Loop
     desc: This is a placeholding thing
     folder: webdev
     meta: This is a placeholding thing
-    img: img/placeholder.jpg
-    id: webdev-1
+    img:
+    id: motion-2
     thumbnail:
-      - thumb: img/placeholder.jpg
-      - thumb: img/placeholder.jpg
-      - thumb: img/placeholder.jpg
+      - thumb: img/gif-sketch.jpg
+    preview:
+      - thumb: https://portfolio-2341.kxcdn.com/nike-video-thumb.mp4
+    video:
+      - link: http://portfolio-2341.kxcdn.com/nike-video-full.mp4
+    alt: This is the alt
 
   - title: webdev-2
     desc: This is a placeholding thing

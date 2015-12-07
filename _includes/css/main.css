@@ -56,7 +56,7 @@ a:focus {
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #eee;
+	background-color: #222;
 	height: 100%;
 	-webkit-overflow-scrolling: touch;
 }
@@ -91,7 +91,7 @@ h1 {
 	position: fixed;
 	height: 5em;
 	padding: 1em;
-	left: 2em;
+	left: 2.75em;
 		z-index: 100;
 }
 
@@ -599,3 +599,24 @@ text-align: center;
 }
 
 
+.embed {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+
+.embed-item {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.embed-16by9 {
+	padding-top: 56.25%;
+}
+
+.embed-1by1 {
+	padding-top: 100%;
+}

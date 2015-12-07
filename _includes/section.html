@@ -6,7 +6,16 @@
 
 		<ul class="layer-strip layer-strip-{{a.section}} grid">
 		{% for b in a.units %}
-			<li class="unit"><a href="#{{b.id}}" class="grayscale"><img src="{{b.img}}" alt=""></a></li>
+			<li class="unit"><a href="#{{b.id}}" class="grayscale">
+			{% for c in b.preview %}
+				<div class="unit unit-xs-1 embed embed-1by1 grayscale">
+				<video class="embed-item" src="{{c.thumb}}" poster="{{b.img}}" onmouseover="this.play()" onmouseout="this.pause()" loop>
+					{{c.alt}}
+				</video>
+				</div>
+			{% endfor %}
+			<img src="{{b.img}}" alt="{{b.alt}}">
+			</a></li>
 			{% assign counter=counter | plus:1 %}
 		{% endfor %}
 		</ul>
