@@ -9,7 +9,7 @@
 			<li class="unit"><a href="#{{b.id}}" class="grayscale">
 			{% for c in b.preview %}
 				<div class="unit unit-xs-1 embed embed-1by1 grayscale">
-				<video class="embed-item" src="{{c.thumb}}" poster="{{b.img}}" onmouseover="this.play()" onmouseout="this.pause()" loop>
+				<video class="embed-item" src="{{c.thumb}}" poster="{{b.img}}" muted onmouseover="this.play()" onmouseout="this.pause()" loop>
 					{{c.alt}}
 				</video>
 				</div>

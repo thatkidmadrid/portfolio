@@ -35,16 +35,19 @@
       - thumb: img/lock-logo.jpg
       - thumb: img/lock-tickets.jpg
 
-  - title: PlayTime!
-    desc: Graphic Design and UI for wellness app in development in ARI
-    folder: branding
-    meta: Graphic Design and UI for wellness app in development in ARI
-    img: img/lock-thumb.jpg
-    id: branding-4
+  - title: Broadcast Package
+    desc: This is a placeholding thing
+    folder: webdev
+    meta: This is a placeholding thing
+    img:
+    id: motion-2
     thumbnail:
-      - thumb: img/lock-sketch.jpg
-      - thumb: img/lock-logo.jpg
-      - thumb: img/lock-tickets.jpg
+      - thumb:
+    preview:
+      - thumb: https://portfolio-2341.kxcdn.com/ootd-thumb.mp4
+    video:
+      - link: http://portfolio-2341.kxcdn.com/ootd-video-full.mp4
+    alt: This is the alt
 
   - title: 3 Second Loop
     desc: This is a placeholding thing
@@ -60,16 +63,16 @@
       - link: http://portfolio-2341.kxcdn.com/nike-video-full.mp4
     alt: This is the alt
 
-  - title: webdev-2
-    desc: This is a placeholding thing
-    folder: webdev
-    meta: This is a placeholding thing
-    img: img/placeholder.jpg
-    id: webdev-2
+  - title: Kendama Packaging
+    desc: Package Redesign for Kendama Europe that emphasizes on recycling and being environmentally friendly
+    folder: packaging
+    meta: Package Redesign for Kendama Europe that emphasizes on recycling and being environmentally friendly
+    img: img/kendama-thumb.jpg
+    id: packaging-1
     thumbnail:
-      - thumb: img/placeholder.jpg
-      - thumb: img/placeholder.jpg
-      - thumb: img/placeholder.jpg
+      - thumb: img/kendama-01.jpg
+      - thumb: img/kendama-02.jpg
+      - thumb: img/kendama-03.jpg
 
 # - section: branding
 #   units:
