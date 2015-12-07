@@ -395,7 +395,6 @@ main {
 }
 
 
-
 /*======================================*/
 /*===========Contact Info===============*/
 /*======================================*/
@@ -553,22 +552,6 @@ text-align: center;
   box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.5) inset;
 }
 
-/*.section-1 .layer-strip {
-	width: calc(6 * 15.25em);
-}
-.section-2 .layer-strip {
-	width: calc(4 * 15.25em);
-}
-.section-3 .layer-strip {
-	width: calc(5 * 15.25em);
-}
-.section-4 .layer-strip {
-	width: calc(4 * 15.25em);
-}
-
-.section-4 {
-	margin: 0;
-}*/
 
 ::-webkit-scrollbar {
     width: 0.5em;
@@ -591,13 +574,9 @@ text-align: center;
 }
 
 
-	/*background-image: -webkit-linear-gradient(-45deg, rgba(0,255,255,0.2) 25%, rgba(255,0,255,0.2) 25%, rgba(255,0,255,0.2) 50%, rgba(255,255,0,0.2) 50%, rgba(255,255,0,0.2) 75%, rgba(0,0,0,0.2) 75%)*/
-
-
 .portfolio {
 	background-color: #111;
 }
-
 
 .embed {
 	position: relative;
