@@ -36,9 +36,9 @@
       - thumb: img/lock-tickets.jpg
 
   - title: Broadcast Package
-    desc: This is a placeholding thing
+    desc: 'Animated Intro, Lower Third & Animated transition for an imaginary fashion television show called Outfit Of The Day (OOTD)'
     folder: webdev
-    meta: This is a placeholding thing
+    meta: 'Animated Intro, Lower Third & Animated transition for an imaginary fashion television show called Outfit Of The Day (OOTD)'
     img: img/ootd-thumb.jpg
     id: motion-2
     thumbnail:
