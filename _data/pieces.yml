@@ -42,7 +42,9 @@
     img: img/ootd-thumb.jpg
     id: motion-2
     thumbnail:
-      - thumb:
+      - thumb: img/ootd-moodboard.jpg
+      - thumb: img/ootd-styleboard-01.jpg
+      - thumb: img/ootd-styleboard-02.jpg
     preview:
       - thumb: https://portfolio-2341.kxcdn.com/ootd-thumb.mp4
     video:
