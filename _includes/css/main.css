@@ -601,9 +601,8 @@ text-align: center;
 }
 
 .sorry {
-	display: block;
 	text-align: center;
 	padding: 3em 0;
-	margin: 3em 0;
-	border: 3px solid;
+	margin: 3em 5%;
+	border: 3px solid #333;
 }
