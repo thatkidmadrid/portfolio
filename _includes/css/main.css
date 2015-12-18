@@ -599,3 +599,11 @@ text-align: center;
 .embed-1by1 {
 	padding-top: 100%;
 }
+
+.sorry {
+	display: block;
+	text-align: center;
+	padding: 3em 0;
+	margin: 3em 0;
+	border: 3px solid;
+}
