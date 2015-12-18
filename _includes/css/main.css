@@ -19,6 +19,13 @@ html {
   box-sizing: inherit;
 }
 
+.sorry {
+	text-align: center;
+	padding: 3em 0;
+	margin: 3em 5%;
+	border: 3px solid #333;
+}
+
 /*======================================*/
 /*===========Accessibility==============*/
 /*======================================*/
@@ -578,6 +585,7 @@ text-align: center;
 	background-color: #111;
 }
 
+
 .embed {
 	position: relative;
 	overflow: hidden;
@@ -598,11 +606,4 @@ text-align: center;
 
 .embed-1by1 {
 	padding-top: 100%;
-}
-
-.sorry {
-	text-align: center;
-	padding: 3em 0;
-	margin: 3em 5%;
-	border: 3px solid #333;
 }
