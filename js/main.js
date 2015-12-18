@@ -1,7 +1,9 @@
 $('.navigation').localScroll({
-	target: '.main'
+	target: '.main';
+	duration: 800;
 });
 
 $('.site-wrap').localScroll({
-	target: '.main'
+	target: '.main';
+	duration: 800;
 });
