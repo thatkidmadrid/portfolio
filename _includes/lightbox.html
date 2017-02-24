@@ -1,18 +1,21 @@
 {% for a in site.data.pieces %}
+	{% for b in a.units %}
+		<div class="lightbox" id="{{b.id}}">
 
-		{% for b in a.units %}
-			<div class="lightbox" id="{{b.id}}">
+			<a href="#" class="lb-close">X</a>
 
-	<a href="#" class="lb-close">X</a>
+			{% if b.iframe != null %}
+			<iframe style="width: 100%; height: 100%;" src="http://ccmadrid.github.io/mapbox"></iframe>
+			{% else %}
 
-	<div class="lb-content grid">
-	{% for c in b.video %}
-		<div class="unit unit-xs-1 unit-m-2-3 embed embed-16by9">
-		<video class="embed-item" src="{{c.link}}" poster="" controls loop>
-			{{c.alt}}
-		</video>
-		</div>
-	{% endfor %}
+			<div class="lb-content grid">
+				{% for c in b.video %}
+				<div class="unit unit-xs-1 unit-m-2-3 embed embed-16by9">
+					<video class="embed-item" src="{{c.link}}" poster="" controls loop>
+					{{c.alt}}
+					</video>
+				</div>
+				{% endfor %}
 
 				<div class="lb-img unit unit-xs-1 unit-m-2-3">
 					<img src="{{b.img}}">
@@ -36,8 +39,8 @@
 		</div>
 
 	</div>
-
-</div>
+{% endif %}
+		</div>
 
 		{% endfor %}
 

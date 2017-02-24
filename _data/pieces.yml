@@ -24,16 +24,15 @@
       - thumb: img/karlyns-cookies-sketch-02.jpg
       - thumb: img/karlyns-cookies-sketch-03.jpg
 
-  - title: L.O.C.K.
-    desc: Ticket and logo design for Living Out Christ the King Praise Concert presented by CFC Youth Ottawa
-    folder: branding
-    meta: Ticket and logo design for Living Out Christ the King Praise Concert presented by CFC Youth Ottawa
-    img: img/lock-thumb.jpg
+  - title: NBA Arena Map
+    desc: Interactive Map for NBA Arenas made using mapbox-gl
+    folder: webdev
+    meta: Interactive Map for NBA Arenas made using mapbox-gl
+    img: img/map-thumb.jpg
+    iframe: http://ccmadrid.github.io/mapbox
     id: branding-3
     thumbnail:
-      - thumb: img/lock-sketch.jpg
-      - thumb: img/lock-logo.jpg
-      - thumb: img/lock-tickets.jpg
+      - thumb: img/map-thumb.jpg
 
   - title: Broadcast Package
     desc: 'Animated Intro, Lower Third & Animated transition for an imaginary fashion television show called Outfit Of The Day (OOTD)'
