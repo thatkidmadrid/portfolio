@@ -191,13 +191,17 @@ main {
 
 .lb-close {
 	position: absolute;
+	width: 1.75em;
+	height: 1.75em;
+	text-align: center;
 	top:1em;
 	left: 1em;
 	text-decoration: none;
 	background-color: #a00;
 	color: #fff;
-	padding: 0.5em;
+	padding: 0.25em;
 	z-index: 100;
+	border-radius: 0.25em;
 }
 /*======================================*/
 /*===========Navigation=================*/
