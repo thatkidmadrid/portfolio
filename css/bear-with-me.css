@@ -1,0 +1,101 @@
+html {
+  height: 100%;
+  background: url("https://cdn.thatkidmadrid.com/bear-with-me/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+body {
+  /*   background: #fff; */
+  font-family: "Oxygen", sans-serif;
+  margin: 0;
+  height: calc(100% - 1em);
+}
+
+h1,
+p.subheading {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+p {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+.subheading {
+  font-size: 2.5em;
+}
+
+p.blurb {
+  font-size: 1.5em;
+}
+
+ul.link-list {
+  list-style-type: none;
+  margin: 1em 0;
+  padding: 0;
+}
+
+ul.inline {
+  display: inline-block;
+}
+
+ul.link-list > li {
+  margin: 0em 0em 1em 0;
+}
+
+ul.inline > li {
+  display: inline-block;
+  margin: 0em 1em 0em 0;
+}
+
+ul.link-list > li > a {
+  opacity: 0.8;
+}
+ul.link-list > li > a:hover,
+ul.link-list > li > a:focus {
+  opacity: 1;
+}
+
+ul.link-list > li > a:focus {
+  outline: dotted #fedc00 8px;
+}
+
+ul.inline > li > a > img {
+  width: 4em;
+  vertical-align: middle;
+}
+.card {
+  color: #313132;
+  margin: 1em;
+  padding: 3em;
+  max-width: 47em;
+  position: relative;
+  top: 50%;
+  left: calc(12.5%);
+  transform: translateY(-50%);
+  /*   background: rgba(255, 255, 255, 0.5); */
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 2em;
+}
+
+.copyright {
+  color: #313132;
+  position: relative;
+  text-align: right;
+}
+
+.thatkidmadrid {
+  font-family: "Poppins";
+  color: #000;
+}

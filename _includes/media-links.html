@@ -1,0 +1,7 @@
+<ul class="link-list inline">
+{% for link in site.data.media-links %}
+	<li>
+		<a target="_blank" href="{{ link.url }}" title="{{ link.title }}"><img src="{{ link.img }}" alt="{{ link.title }} logo"></a>
+	</li>
+{% endfor %}
+</ul>
