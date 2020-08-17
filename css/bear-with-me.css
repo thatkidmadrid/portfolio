@@ -1,9 +1,9 @@
 html {
   height: 100%;
-  background: url("https://cdn.thatkidmadrid.com/bear-with-me/background.jpg");
+  background: #dedbd6 url("https://cdn.thatkidmadrid.com/bear-with-me/background.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
+  background-size: 375vw;
+  background-position: 77% 30em;
 }
 body {
   /*   background: #fff; */
@@ -68,18 +68,19 @@ ul.link-list > li > a:focus {
 }
 
 ul.inline > li > a > img {
-  width: 4em;
+  width: 3em;
   vertical-align: middle;
 }
 .card {
   color: #313132;
-  margin: 1em;
+  margin: 1em 2em;
   padding: 3em;
-  max-width: 47em;
+  /* max-width: calc(50vw - 20em); */
+  /* max-width: 32.5em; */
   position: relative;
-  top: 50%;
-  left: calc(12.5%);
-  transform: translateY(-50%);
+  top: 0;
+  /* left: calc(12.5%); */
+  /* transform: translateY(-50%); */
   /*   background: rgba(255, 255, 255, 0.5); */
 }
 
@@ -98,4 +99,67 @@ footer {
 .thatkidmadrid {
   font-family: "Poppins";
   color: #000;
+}
+
+@media only screen and (min-width: 500px) {
+  html {
+    /* background-position: 77% 20em; */
+  }
+}
+
+@media only screen and (min-width: 540px) {
+  html {
+    /* background-position: 55% 50%; */
+    background-position: 77% 20em;
+    background-size: cover
+  }
+  .card {
+    max-width: 32.5em;
+    margin: 1em auto;
+  }
+}
+
+@media only screen and (min-width: 580px) {
+  html {
+    /* background-position: 55% 50%; */
+    background-size: cover
+  }
+  ul.inline > li > a > img {
+    width: 4em;
+    vertical-align: middle;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+
+}
+
+@media only screen and (min-width: 1000px) {
+  html {
+    background-position: 55% 50%;
+  }
+
+  .card {
+    max-width: 32.5em;
+    margin: 1em;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+}
+
+@media only screen and (min-width: 1100px) {
+  html {
+    background-position: 50% 50%;
+  }
+  .card{
+    left: 12.5%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .card{
+    max-width: calc(50vw - 15em);
+  }
 }
