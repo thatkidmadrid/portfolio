@@ -3,13 +3,14 @@ html {
   background: #dedbd6 url("https://cdn.thatkidmadrid.ca/bear-with-me/background.jpg");
   background-repeat: no-repeat;
   background-size: 375vw;
-  background-position: 77% 30em;
+  background-position: 75% 20em;
 }
 body {
   /*   background: #fff; */
   font-family: "Oxygen", sans-serif;
-  margin: 0;
-  height: calc(100% - 1em);
+  margin: 2em 0.25em;
+  font-size: 10pt;
+  min-height: 800px;
 }
 
 h1,
@@ -26,6 +27,8 @@ p {
 
 h1 {
   font-size: 4em;
+  line-height: 1em;
+  margin: 0.25em 0;
 }
 
 .subheading {
@@ -34,6 +37,7 @@ h1 {
 
 p.blurb {
   font-size: 1.5em;
+  line-height: 1.5em;
 }
 
 ul.link-list {
@@ -74,7 +78,7 @@ ul.inline > li > a > img {
 .card {
   color: #313132;
   margin: 1em 2em;
-  padding: 3em;
+  padding: 0;
   /* max-width: calc(50vw - 20em); */
   /* max-width: 32.5em; */
   position: relative;
@@ -105,6 +109,10 @@ footer {
   html {
     /* background-position: 77% 20em; */
   }
+  body{
+    height: 100%;
+    font-size: 12pt;
+  }
 }
 
 @media only screen and (min-width: 540px) {
@@ -114,6 +122,7 @@ footer {
     background-size: cover
   }
   .card {
+    padding: 3em;
     max-width: 32.5em;
     margin: 1em auto;
   }
