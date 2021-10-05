@@ -2,7 +2,7 @@
 
 ####[☛ thatkidmadrid.ca](https://thatkidmadrid.ca)
 
-![Profile Picture](http://thatkidmadrid.ca/img/profile-250.jpg)
+![Profile Picture](https://cdn.thatkidmadrid.ca/headshot-sm.jpg)
 
 I am passionate about simple, *creative*, solutions for web and print media.
 
