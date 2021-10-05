@@ -47,7 +47,8 @@ ul.link-list {
 }
 
 ul.inline {
-  display: inline-block;
+  display: flex;
+  align-items: center;
 }
 
 ul.link-list > li {
